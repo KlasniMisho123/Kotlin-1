@@ -137,8 +137,8 @@
 
     <LinearLayout
         android:id="@+id/loginwithfb"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="314dp"
+        android:layout_height="52dp"
         android:layout_marginHorizontal="50dp"
         android:layout_marginTop="108dp"
         android:background="@drawable/button_bgxml2"
@@ -150,10 +150,19 @@
         tools:ignore="DuplicateIds">
 
         <TextView
+            android:layout_width="24dp"
+            android:layout_height="32dp"
+            android:text="f"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <TextView
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:drawableStart="@drawable/ic_baseline_email_24_black"
             android:text="Log in with facebook"
             android:textColor="@color/white"
             android:textSize="23sp" />
@@ -162,8 +171,8 @@
     <LinearLayout
 
         android:id="@id/exsistingaccaunt"
-        android:layout_width="243dp"
-        android:layout_height="26dp"
+        android:layout_width="317dp"
+        android:layout_height="33dp"
         android:layout_marginHorizontal="100dp"
         android:layout_marginTop="24dp"
         android:gravity="center"
@@ -172,17 +181,17 @@
 
         app:layout_constraintTop_toBottomOf="@+id/loginwithfb"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="131dp"
-        >
+        tools:layout_editor_absoluteX="57dp">
 
         <TextView
             android:id="@id/exsistingaccaunt"
-            android:layout_width="243dp"
-            android:layout_height="26dp"
-            android:textSize="17sp"
+            android:layout_width="237dp"
+            android:layout_height="wrap_content"
             android:text="Already have a accaunt?Log in"
-            android:textColor="@color/white" />
+            android:textColor="@color/white"
+            android:textSize="17sp" />
     </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
